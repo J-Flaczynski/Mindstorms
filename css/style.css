@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+.ul {
+  list-style-type: none;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 90px;
+  background-color: rgb(189, 75, 75);
+}
+.logo {
+  width: 300px;
+  height: 90px;
+
+  margin-left: 50px;
+}
+.links {
+  margin-right: 50px;
+}
+.links a {
+  text-decoration: none;
+  color: inherit;
+}
+.links li {
+  display: inline-block;
+  margin-right: 50px;
+  font-size: 25px;
+}
+
+.blokFamily img {
+  width: 100vw;
+  height: 250px;
+}
+.Megablok {
+  height: 55vh;
+  width: 100vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bloktekst {
+  width: 600px;
+  height: 350px;
+  margin-left: 50px;
+}
+.titelblok {
+  width: 600px;
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.titelblok2 {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 15%;
+  left: 45%;
+  color: white;
+}
+.blokImg {
+  width: 300px;
+  height: 300px;
+
+  display: flex;
+  margin-right: 50px;
+}
+.hero {
+  width: 100%;
+  height: 400px;
+  display: block;
+  background-size: cover;
+}
+.hero img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.home-strip {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  font-size: 30px;
+}
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 43.2vh;
+}
+.features {
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 400px;
+  height: 350px;
+  background-color: black;
+}
+.project-info {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+}
+.project-info p {
+  margin-left: 645px;
+  font-size: 35px;
+}
+.project-text {
+  width: 40%;
+  height: 100%;
+  font-size: 18px;
+  position: absolute;
+  top: 6cm;
+  right: 3cm;
+}
+.slideshow-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 90vh;
+}
+.slideshow {
+  margin-bottom: 150px;
+  width: 90vw;
+  height: 550px;
+}
